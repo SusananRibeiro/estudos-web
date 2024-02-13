@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CAIXAS BOX- Parte 2</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-image: url(https://assets.nflxext.com/ffe/siteui/vlv3/dc1cf82d-97c9-409f-b7c8-6ac1718946d6/fb4b6819-b7bf-4e73-89aa-8e316a8733d6/BR-pt-20230911-popsignuptwoweeks-perspective_alpha_website_medium.jpg);
+            background-size: cover;
+            background-position: top center;
+        }
+        
+        #heading {
+            background: rgba(0, 0, 0, 0.7); /* red/vermelho, green/verde, blue/azul, alfa/opacidade */
+        }
+
+        #heading div {
+            width: 90%;
+            display: flex;
+            justify-content: space-between;
+            margin: 0 auto; /* top e bottom são 0, e rigth e left são auto*/
+        }
+
+        /* "#heading h1" diz para aplicar as estilizações do id heading só na classe h1 */
+        #heading .h1 {
+            /*padding: 15px 0 0 50px; /* a sequência é: "cima/top" "direita/right" "baixo/bottom" "esquerda/left", ou seja, no sentido horário*/
+            padding: 15px 0; /* todos os espaçamentos vão ser 15px (top, right, bottom, left) */
+            font-size: 20px;
+            text-transform: uppercase;
+            color: #ffffff;
+        }  
+        
+        #heading a {
+            color: #ffffff;
+            text-decoration: none; /* tira o sublinhado do link*/
+            font-family: sans-serif;
+        } 
+        
+
+    </style>
+</head>
+<body>
+    <header id="heading">
+        <div>        
+            <h1 class="h1">
+                <a href="#">Netflix</a>
+            </h1>
+            
+            <h2 class="h1">
+                <a href="#">Netflix</a>
+            </h2>
+        </div>
+    </header>
+</body>
+</html>

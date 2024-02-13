@@ -1,0 +1,60 @@
+body {
+    width: 60%; /*vai ocupar só 60% da página, fica mais no centro da página*/
+    margin: auto;
+    font-family: 'Courier New';  
+    background-color: rgb(223, 223, 222);
+    font-size: 20px;
+}
+
+.cabecalho { 
+    text-align: center;
+}
+
+img {    
+    border-radius: 20px;
+    border-top-right-radius: 60px;
+    border-bottom-left-radius: 60px;
+    
+}
+
+h1, a {
+    text-decoration: underline orange;
+    font-weight: bold;
+}
+
+.preparo {
+    margin-top: 50px;
+
+}
+
+.preparo div {
+    margin-top: 50px;
+
+}
+
+td, th {
+    text-align: center;
+    border: 1px solid black;
+    padding: 0 10px;
+}
+
+table {   
+    float: right;
+    border-collapse: collapse;
+}
+
+ul, ol {    
+    margin-top: 5px;
+}
+
+li {
+    list-style: "👉"; /**/
+    padding-left: 20px;
+}
+
+.fonte {
+    text-align: end;
+}
+
+
+

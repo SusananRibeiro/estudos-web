@@ -1,0 +1,109 @@
+/* Estilos globais */
+body {
+    font-family: 'Aoboshi One', serif;
+    margin-top: 120px; /*Isso centralizará todo o conteúdo*/
+    padding: 0;
+    background-color: #1E1E1E; /*Cor de fundo*/
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#meio-da-tela {
+    max-width: 880px; /*largura*/
+    max-height: 780px; /*altura*/
+    width: 100%; /* Ocupar toda a largura da tela */
+    background-color: white;
+    border-radius: 15px;
+    padding: 0;
+}
+
+.cabecalho {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+h1 {
+    text-align: center;
+    padding-bottom: 8px; /**/
+}
+
+button {
+    background-color: #04BF2D; /*Cor principal (botões): #04BF2D */
+    color: white; 
+    padding: 20px; /* Adicione um preenchimento para espaçamento dentro do botão */
+    border: none; 
+    border-radius: 10px; 
+    cursor: pointer; 
+    height: 10px;  
+    width: 140px;
+    text-align: center; /* Alinhe o texto horizontalmente no centro */
+    line-height: 1px; /* Ajuste a altura da linha para centralizar verticalmente o texto */
+}
+
+.campo-busca {
+    display: flex;
+    align-items: center;
+    padding-left: 15px;
+    padding-right: 15px;
+    
+}
+
+input {
+    padding: 10px; /**/
+    border: 1px; /**/
+    border-style: solid; /*estilo da borda, tipo de linha*/
+    border-color: rgba(224, 223, 223, 0.966); /*cor da borda*/
+    border-radius: 10px;
+    margin-left: 10px;
+    width: 250px;
+    height: 8px;
+    cursor: pointer;
+    background-color: rgba(224, 223, 223, 0.966); /* Define a cor de fundo como cinza */
+    
+}
+
+img {
+    margin-left: 10px;
+    width: 16px; 
+    height: 16px; 
+}
+
+table {
+    width: 100%; /*deixa a tabela no centro */
+    border-collapse: collapse; 
+    margin-top: 50px; /**/
+    font-size: 14px;
+    margin-bottom: 25px;
+   
+}
+
+th {
+    color: white;
+    background-color: #2EA13A; /* Verde */
+    font-weight: lighter;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+
+.centralizar-esquerdo {
+    text-align: left;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+}
+
+.centralizar-texto {
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+a {
+    color: black;
+}

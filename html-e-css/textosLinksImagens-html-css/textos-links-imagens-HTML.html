@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Textos, Links e Imagens</title>
+
+    <!-- Código CSS -->
+    <style>
+        .img-in-text {
+            width: 50px; 
+            height: 40px;
+        }
+
+        .vermelho {
+            font-size: 24px;
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <h1>Cabeçalho</h1>
+
+    <p><b>Lorem </b> <strong>ipsum</strong> <i>dolor</i> <em>sit</em> <a href="https://www.google.com/" target="_blank">amet </a> 
+    <a href="https://www.google.com/" target="_blank"> <img class="img-in-text" src="https://cbissn.ibict.br/images/phocagallery/galeria2/thumbs/phoca_thumb_l_image03_grd.png" alt="Alguns pinguins em grupo no polo norte"></a>
+    consectetur adipisicing elit. Laboriosam incidunt unde commodi eius <del>vermehlo</del> <ins>azul </ins> <s>inventore</s> <u>excepturi</u> <small>laudantium</small> itaque, 2<sup>2</sup> quod ficaria H<sub>2</sub>O corporis ex quibusdam illo aperiam necessitatibus dicta in ratione architecto, neque blanditiis.</p>
+    
+    <hr><!-- Fazer uma linha horizontal de fora a fora na página-->
+
+    <p><span class="vermelho">Lorem</span>  ipsum dolor sit amet consectetur adipisicing elit. 
+    <br> Laboriosam <q cite="https://www.google.com/"> Citação </q> unde 
+    <q cite="imagem/bolo.jpg">Citação <span class="vermelho">com arquivo</span> local </q>commodi eius inventore excepturi laudantium itaque, <code>console.log</code> quod corporis ex quibusdam illo aperiam necessitatibus dicta in ratione architecto, neque blanditiis.</p>
+
+    <!--Bloco de citação-->
+    <blockquote cite="https://www.google.com/">Aqui sim estou fazendo um bloco de citação</blockquote>
+
+<!-- Bloco de Texto Formatado -->    
+<pre><code> 
+let soma = 0;
+inputMais.forEach((input) => {
+    const valor = input.value;
+    const numero = Number(valor);
+
+    if(numero) {
+        soma += numero;
+    }
+
+    console.log(soma);
+});
+</code>
+</pre>
+
+    <div class="vermelho">
+        Eu sou um bloco.
+    </div>
+
+</body>
+</html>

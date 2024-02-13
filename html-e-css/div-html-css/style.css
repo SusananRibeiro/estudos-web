@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.bloco {
+    width: 350px;
+    height: 100px;
+}
+
+.conteudo {
+    background-color: black;
+    /*VALORES POSSÍVEIS: flex, blok, none*/
+    display: flex; /*mudar a disposição dos elementos em só uma linha */
+
+    /*VALORES POSSÍVEIS: row,  row-reverse, column, column-reverse*/
+    flex-direction: row; /**/
+
+    gap: 20px; /*criar espaçamento entre os elementos da página*/ 
+    justify-content: space-evenly; /*vai mexer na posição dos elementos na página*/
+    flex-wrap: wrap-reverse; /*esse vai fazer a responsividade do site*/
+
+}
+
+/*Para fazer um IF no CSS, uma condição*/
+@media (max-width: 750px) {
+    .conteudo {
+        background-color: purple;
+    }
+}
