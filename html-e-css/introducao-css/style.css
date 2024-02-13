@@ -1,0 +1,29 @@
+body {
+    background-color: aquamarine; /*mudar o fundo da página*/
+    background-image: url("imagem/pinguim.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+p {
+    font-size: 25px; /* definir o tamanho da fonte, em pixels */
+    font-weight: 800; /* mudar a espessura da fonte, quanto maior, mas grosso fica*/
+    font-style: italic; /* efeito na fonte*/
+    font-family: Arial; /*é o tipo da fonte, tomar cuidado pois o usuário pode não ter, para cuidar é bom colocar a fonte direto no projeto*/
+    color: blueviolet; /* pode-se colocar a cor por hexadecimal (#000000) ou RGB(255, 85, 125) ou rgba(255, 85, 125, 0.5), tem a opção de opacidade*/
+
+    /*text-align: center;*/
+    text-decoration: overline dashed blue;
+    text-indent: 15px; /* espaço na primeira linha do parágrafo */
+    text-transform: uppercase; /* deixa o texto todo em maiúsculo ou minúsculo */
+        
+}
+.meu-texto {
+    color: rgb(255, 85, 125);
+}
+
+#paragrafo {
+    color: #000000;
+
+    text-align: end;
+}

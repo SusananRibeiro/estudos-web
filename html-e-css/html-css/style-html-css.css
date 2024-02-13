@@ -1,0 +1,90 @@
+/*"*" é para aplicar em toda a página*/
+* {
+    padding: 0; /*por padrão se zera o espaçamento*/
+    margin: 0; /*por padrão se zera a margem*/
+}
+
+#conteudo {
+    width: 500px;
+    height: 100px;
+    background-color: red;
+    cursor: pointer; /*vai ser o tipo do cursor, nesse exemplo vai ser a mãozinha com o dedo apontando*/
+}
+
+.btn {
+    float: right;
+    visibility: hidden; /*não vai aparecer na tela*/
+}
+
+div {
+    color: white; /*só para teste, se configura esse estilo para poder visualizar o que está sendo feito na tela*/
+    background-color: blue; /*só para teste, se configura esse estilo para poder visualizar o que está sendo feito na tela*/
+
+    /*width: 250px; /*largura da div*/
+    /*height: 500px; /*altura da div*/
+    /*max-height: 350px; /*altura máxima da página*/
+    /*overflow-y: scroll; /*vai criar a rolagem dentro da página*/
+    /*max-width: 200px; /*largura máxima da página*/
+    /*overflow-x: scroll;
+    
+
+    /*MARGEM da Página*/
+    /*margin: 10px; /*espaçamento externo em toda página, fora do elemento*/
+    /*margin-top: 10px; /*mudar a margem somente do topo da página*/
+    /*margin-left: 10px; /*mudar a margem somente o lado esquerdo da página*/
+    /*margin-bottom: 10px; /*mudar a margem somente a parte de baixo da página*/
+    /*margin-right: 10px; /*mudar a margem somente o lado direito da página*/    
+    /*margin: 10px 25px; /**/
+    /*margin: 20px 25px 30px 35px; /**/
+
+    /*ESPAÇAMENTO da Página*/
+    padding: 10px; /*vai aplicar em todos os lados da página*/
+    /*padding: 10px 30px; /*vai aplicar em todos os lados da página, sentido horário*/
+    /*padding-top: 50px; /**/
+    /*padding-right: 60px; /**/
+
+    /*BORDAS da Página*/
+    /*border-width: 15px; /*medida sempre em pixel, vai alterar todos os lados*/
+    /*border-style: solid; /*tipo da linha da borda, vai alterar todos os lados*/
+    /*border-color: brown; /*cor da borda, vai alterar todos os lados*/
+    /*border: 5px solid blue; /*colocar as 3 propriedades anteriores em uma só, na sequência "width" "style" "color", vai alterar todos os lados*/
+
+    /*border-top-width: 5px; /*alterar somente a linha de cima/topo*/
+    /*border-top-style: dotted; /*alterar linha pontilhada, somente a linha de cima/topo*/
+    /*border-top-color: blueviolet; /*alterar somente a linha de cima/topo*/
+
+    /*border-bottom-width: 5px; /*alterar somente a linha de baixo*/
+    /*border-bottom-style: solid; /*alterar somente a linha de baixo*/
+    /*border-bottom-color: black; /*alterar somente a linha de baixo*/
+    /*border-radius: 10px; /*arredondar as bordas*/
+
+    
+
+}
+
+/*Estilizando mais de uma tag junta*/
+tr, td, th {
+    border: 1px solid purple;
+}
+
+table {
+    /*border-collapse: collapse; /*para criar borda na tabela toda*/
+}
+
+li {
+    margin-left: 25px;
+    /*list-style: square; /*dependo da margem, não vai aparecer na tela*/
+    /*list-style: none; /**/
+    /*list-style: url("imagem/pinguim.jpg"); /**/
+    list-style: "😂"; /**/
+}
+
+
+
+
+
+
+
+
+
+

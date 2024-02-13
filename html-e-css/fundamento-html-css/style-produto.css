@@ -1,0 +1,149 @@
+/* Estilos específicos para a página de produtos */
+body { 
+    font-family: 'Aoboshi One', serif;
+    margin-top: 100px; /*Isso centralizará todo o conteúdo*/
+    padding: 0;
+    background-color: #1E1E1E; /*Cor de fundo*/
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#meio-da-tela {
+    max-width: 880px; /*largura*/
+    max-height: 780px; /*altura*/
+    width: 100%; /* Ocupar toda a largura da tela */
+    padding: 0;
+    background-color: white;
+    border-radius: 15px;
+}
+
+.todos {
+    padding-top: 20px;
+    padding-right: 100px; 
+}
+
+.cabecalho {
+    margin: 0;
+    padding: 0;
+    display: flex; /* para deixa os elementos um do lado do outro*/
+    flex-direction: row; /*Colocar os itens como uma linha, um do lado do outro*/
+    justify-content: space-around; /*exibe os elementos com espaçamento igual ao redor deles*/
+}
+
+.imagem-seta-voltar {
+    margin-left: 100px;
+    margin-top: 20px;
+    width: 12px; 
+    height: 18px;
+
+}
+
+.bloco-imagem-geladeira {
+    width: 387px; 
+    height: 387px;
+    display: flex;
+    flex-direction: row;
+    align-items: center; 
+    margin-right: 50px;
+    margin-bottom: 30px;
+
+}
+
+.imagem-geladeira {
+    width: 487px; 
+    height: 487px;
+    
+}
+
+
+#h1 {
+    font-size: 18px;
+    font-weight: lighter; /**/
+    padding-bottom: 20px;
+}
+
+.frete {
+    background-color: #58FF7D;
+    display: flex; /*mudar a disposição dos elementos em só uma linha */
+    justify-content: space-between; /*vai mexer na posição dos elementos na página*/
+    flex-wrap: wrap-reverse; /*esse vai fazer a responsividade do site*/
+    border: 15px; /**/
+    border-style: solid; /*estilo da borda, tipo de linha*/
+    border-color: #58FF7D; /*cor da borda*/
+    border-radius: 10px;
+}
+
+.bloco-calculo-frete {
+    font-size: 13px;
+    width: 100px;
+    height: 25px;
+    align-items: center;
+    
+}
+
+.bloco-frete-lupa {
+    width: 135px; /**/
+    height: 25px;
+    margin-left: 150px;
+    align-items: center;
+}
+
+input {
+    padding: 10px;
+    border: 1px solid rgba(224, 223, 223, 0.966); /**/
+    border-radius: 10px;
+    width: 85px;
+    height: 3px; /**/
+    cursor: pointer;
+    background-color: rgba(224, 223, 223, 0.966); /* Define a cor de fundo como cinza */
+}
+
+.imagem-lupa {
+    margin-left: 10px;
+    width: 16px; 
+    height: 16px; 
+}
+
+.todos-precos {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.preco-original {
+    margin-top: 20px;
+    margin-bottom: 0;
+    padding: 0;
+    text-decoration: line-through; /*tachar o texto */
+    font-size: 10px;
+    color: red;   
+}
+
+.preco-desconto {
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    color: #04BF2D;
+}
+
+.parcelas {
+    margin-top: 0;
+    margin-bottom: 20px;
+    padding: 0;
+    font-size: 9px;
+    color: black;
+}
+
+button {
+    background-color: #04BF2D; /* Verde */
+    border: none;
+    border-radius: 8px;
+    color: white;
+    padding: 10px 20px; /**/
+    cursor: pointer;
+    text-align: center;
+    width: 470px;
+    text-transform: uppercase;
+}
+

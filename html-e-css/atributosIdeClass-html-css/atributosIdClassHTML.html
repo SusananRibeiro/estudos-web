@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atributos, IDs e Classes</title>
+    <!--TAG para colocar o CSS-->
+    <style>
+        h1 {
+            background: red;
+        }
+
+        /*O navegador vai ler o de cima e aplicar, mas como o de baixo tem a mesma especificidade, o navegador vai aplicar o que ele lê por ultimo, ou seja, a ultima linha do código
+        h1 {
+            background: blue;
+        }*/
+
+         p {
+            background: blue;
+        }
+        /*Para identificar que é um ID no CSS, se usa uma cerquilha (símbolo "#")*/
+        #cabecalho-dois {
+            background: purple;
+        }
+
+        /*Para identificar que é uma Classe no CSS, se usa uma ponto (símbolo ".")
+        A especificidade do id é maior que a da classe*/
+        .fundo-vermelho {
+            background: red !important; /*"!important" diz que é mais importante, então vai dar prioridade a essa linha de código, mas não é recomendado usar, só para exemplo*/
+
+        }
+
+        .bold {
+            color: yellow;
+
+        }
+
+    </style> 
+</head>
+<body>
+    <h1 id="cabecalho-um" class="fundo-vermelho border-esquerda">Vai vir aqui</h1> <!--não pode ter vários IDs com o mesmo nome, precisa ser único-->
+
+    <h1 id="cabecalho-dois" class="fundo-vermelho">Vai vir aqui</h1>
+    <p>Um texto <strong class="bold">qualquer</strong></p> <!--Na aula ele usa o "b", mas essa tag está depreciada-->
+    <p>Um texto <strong class="bold">qualquer</strong></p>
+    <p>Um texto <strong class="bold">qualquer</strong></p>
+    <p>Um texto <strong class="bold">qualquer</strong></p>
+    <p>Um texto <strong class="bold">qualquer</strong></p>
+    <p>Um texto <strong class="bold">qualquer</strong></p>
+    
+</body>
+</html>
