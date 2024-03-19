@@ -1,0 +1,72 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap; /* Permitir que os itens do cabeçalho se ajustem em telas menores */
+}
+.logo img {
+    max-width: 100%;
+    height: auto;
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around; /* Distribui os itens horizontalmente */
+}
+nav ul li {
+    margin-right: 20px;
+}
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+nav ul li a:hover {
+    color: #ffc107;
+}
+.content {
+    padding: 20px;
+    max-width: 100%; /* Garante que o conteúdo não ultrapasse a largura da tela */
+}
+h1, h2, h3 {
+    color: #333;
+}
+.bar {
+    height: 5px;
+    background-color: #ffc107;
+}
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+/* Adicione regras de estilo para tornar o cabeçalho e o conteúdo responsivos */
+@media screen and (max-width: 768px) {
+    .logo img {
+        max-width: 150px;
+    }
+    header {
+        padding: 10px;
+        justify-content: center; /* Centraliza os itens do cabeçalho */
+    }
+    nav ul {
+        flex-direction: column;
+        align-items: center; /* Centraliza os itens do menu */
+    }
+    nav ul li {
+        margin: 10px 0;
+    }
+}
