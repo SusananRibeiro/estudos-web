@@ -1,0 +1,7 @@
+.titulo-lateral ul {
+    display: none;
+}
+
+.submenu:hover ul {
+    display: block;
+}

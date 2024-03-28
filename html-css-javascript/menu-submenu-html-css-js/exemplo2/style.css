@@ -1,0 +1,7 @@
+.menu-lateral {
+    display: none;
+}
+
+nav:hover .menu-lateral {
+    display: block;
+}
